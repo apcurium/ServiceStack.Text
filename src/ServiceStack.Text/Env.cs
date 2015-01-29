@@ -20,7 +20,7 @@ namespace ServiceStack.Text
 
             IsMono = AssemblyUtils.FindType("Mono.Runtime") != null;
 
-            IsMonoTouch = AssemblyUtils.FindType("MonoTouch.Foundation.NSObject") != null;
+            IsMonoTouch = AssemblyUtils.FindType("Foundation.NSObject") != null;
 
             IsWinRT = AssemblyUtils.FindType("Windows.ApplicationModel") != null;
 
